@@ -28,6 +28,11 @@ module.exports = {
               title: 'Next.js',
               type: 'link',
             },
+            {
+              pathSegment: 'react-vite',
+              title: 'react-vite',
+              type: 'link',
+            },
           ],
         },
         {
