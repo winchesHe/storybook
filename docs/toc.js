@@ -28,6 +28,11 @@ module.exports = {
               title: 'Next.js',
               type: 'link',
             },
+            {
+              pathSegment: 'react-webpack5',
+              title: 'react-webpack5',
+              type: 'link',
+            },
           ],
         },
         {
