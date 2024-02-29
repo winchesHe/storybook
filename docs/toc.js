@@ -28,6 +28,11 @@ module.exports = {
               title: 'Next.js',
               type: 'link',
             },
+            {
+              pathSegment: 'vue3-webpack5',
+              title: 'vue3-webpack5',
+              type: 'link',
+            },
           ],
         },
         {
