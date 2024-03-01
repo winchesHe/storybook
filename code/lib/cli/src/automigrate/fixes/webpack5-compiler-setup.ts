@@ -29,7 +29,9 @@ type Options = {
 export const webpack5CompilerSetup = {
   id: 'webpack5-compiler-setup',
   versionRange: ['<8.0.0-alpha.9', '>=8.0.0-alpha.9'],
-  promptType(result) {
+  // The type of Fix is very strict, so that in edge cases, a conditinal result type isn't compatible with the definition of the `run` function.
+  // Using `any` here is the only way to make it work.
+  promptType(result): any {
     return result.isNextJs && !result.shouldRemoveSWCFlag ? 'notification' : 'auto';
   },
 
